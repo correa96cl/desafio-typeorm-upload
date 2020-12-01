@@ -50,7 +50,7 @@ var CreateCategories1606434613928 = /** @class */ (function () {
                             columns: [
                                 {
                                     name: 'id',
-                                    type: 'varchar',
+                                    type: 'uuid',
                                     isPrimary: true,
                                     isGenerated: true,
                                     generationStrategy: 'uuid'

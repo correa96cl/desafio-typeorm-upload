@@ -49,7 +49,7 @@ var CreateTransactions1606436292210 = /** @class */ (function () {
                             columns: [
                                 {
                                     name: 'id',
-                                    type: 'varchar',
+                                    type: 'uuid',
                                     isPrimary: true,
                                     isGenerated: true,
                                     generationStrategy: 'uuid'
