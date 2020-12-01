@@ -47,7 +47,7 @@ var CreateForeignKeyTransactionCategory1606440496169 = /** @class */ (function (
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, queryRunner.addColumn('transactions', new typeorm_1.TableColumn({
                             name: 'category_id',
-                            type: 'varchar',
+                            type: 'uuid',
                             isNullable: true
                         }))];
                     case 1:
